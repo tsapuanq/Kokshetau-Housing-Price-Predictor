@@ -10,20 +10,16 @@ st.set_page_config(page_title="Оценка квартиры", layout="centered"
 st.markdown(
     """
     <style>
-        /* Фон страницы */
         body {
             background-color: #F5F7FA;
         }
 
-        /* Заголовок */
         .title {
             text-align: center;
             font-size: 36px;
             font-weight: bold;
             color: #2C3E50;
         }
-
-        /* Блок с ценой */
         .price-box {
             background-color: #E8F6FF;
             padding: 15px;
@@ -34,8 +30,6 @@ st.markdown(
             color: #2C3E50;
             margin-top: 20px;
         }
-
-        /* Кастомные кнопки */
         .stButton>button {
             background-color: #1E90FF;
             color: white;
